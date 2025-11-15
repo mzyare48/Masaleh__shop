@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>مصالح‌فروشی</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* استایل اسلایدشو */
+    .slideshow {
+      position: relative;
+      max-width: 100%;
+      height: 300px;
+      margin: 20px auto;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+    .slides {
+      display: flex;
+      width: 300%;
+      animation: slide 12s infinite;
+    }
+    .slides img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      30% { transform: translateX(0); }
+      35% { transform: translateX(-100%); }
+      65% { transform: translateX(-100%); }
+      70% { transform: translateX(-200%); }
+      100% { transform: translateX(-200%); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>فروشگاه مصالح ساختمانی</h1>
+  </header>
+
+  <nav>
+    <a href="products.html">محصولات</a>
+    <a href="contact.html">تماس</a>
+  </nav>
+
+  <!-- اسلایدشو -->
+  <div class="slideshow">
+    <div class="slides">
+      <img src="assets/img/cement.jpg" alt="سیمان">
+      <img src="assets/img/brick.jpg" alt="آجر">
+      <img src="assets/img/rebar.jpg" alt="میلگرد">
+    </div>
+  </div>
+
+  <main>
+    <h2>به فروشگاه مصالح ساختمانی خوش آمدید</h2>
+    <p>ما بهترین مصالح ساختمانی را با قیمت مناسب و کیفیت عالی ارائه می‌دهیم.</p>
+  </main>
+
+  <footer>
+    <p>تماس: 0912-0000000 | آدرس: مشهد</p>
+  </footer>
+</body>
+</html>
